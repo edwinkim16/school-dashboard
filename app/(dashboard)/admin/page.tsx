@@ -1,4 +1,5 @@
 import UserCard from "@/components/UserCard";
+import CountChart from "@/components/CountChart";
 
 const Admin = () => {
   return (
@@ -12,7 +13,9 @@ const Admin = () => {
           <UserCard type="parent" />
           <UserCard type="staff" />
         </div>
-        
+        <div className="w-full lg:w-1/3 h-[450px]">
+          <CountChart />
+        </div>
       </div>
       {/* RIGHT */}
       <div className="w-full lg:w-1/3">
